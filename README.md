@@ -159,7 +159,33 @@ Background tasks like sending notifications and processing payments are managed 
 
 ### Containerization and CI/CD
 Docker is used to create consistent development and deployment environments, while CI/CD pipelines automate testing and deployment processes. This streamlines development workflows and improves reliability.
+---
 
+## API Security
+
+### Authentication
+Authentication ensures that only legitimate users can access the platform by verifying their identity through secure login mechanisms such as JWT (JSON Web Tokens) or OAuth. This protects user accounts from unauthorized access and safeguards personal information.
+
+### Authorization
+Authorization controls user permissions, ensuring that users can only perform actions they are allowed to, such as managing their own properties or bookings. This prevents unauthorized data access and modification, maintaining data integrity and privacy.
+
+### Rate Limiting
+Rate limiting restricts the number of API requests a user or client can make within a certain time frame. This helps prevent abuse, such as brute force attacks or denial-of-service (DoS) attacks, protecting the platform’s availability and performance.
+
+### Data Encryption
+Sensitive data, including passwords and payment information, is encrypted both in transit (using HTTPS/TLS) and at rest. Encryption safeguards confidential information against interception and unauthorized access.
+
+### Input Validation and Sanitization
+All incoming data is validated and sanitized to prevent injection attacks, such as SQL injection or cross-site scripting (XSS). This ensures the application remains secure from common vulnerabilities.
+
+### Secure Payment Processing
+Payment transactions are handled through secure, PCI-compliant gateways with additional verification steps to protect financial data and prevent fraud.
+
+---
+
+Security is crucial in this project to protect user data, maintain trust, ensure safe financial transactions, and provide a reliable and robust platform. Implementing these measures helps prevent data breaches, unauthorized access, and service disruptions, which are essential for a successful booking platform.
+
+---
 
 
 This repository will serve as the foundation for building and maintaining the backend services of the Airbnb Clone application.
