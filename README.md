@@ -23,6 +23,22 @@ The Airbnb Clone Project is a full-stack web application designed to simulate a 
 - **CI/CD:** GitHub Actions or similar platforms
 
 ---
+## Team Roles
+
+### Backend Developer
+Responsible for designing, implementing, and maintaining the server-side logic of the application. This includes creating API endpoints, managing business logic, and ensuring secure and efficient data processing.
+
+### Database Administrator (DBA)
+Manages the design, implementation, and maintenance of the database systems. Responsibilities include optimizing queries, indexing, ensuring data integrity, backup, and recovery.
+
+### DevOps Engineer
+Handles deployment, monitoring, and scaling of backend services. Implements CI/CD pipelines, manages containerization (e.g., Docker), and ensures the infrastructure is reliable and secure.
+
+### QA Engineer
+Ensures the backend functionalities meet quality standards through rigorous testing. Designs test cases, performs automated and manual testing, and verifies bug fixes and feature implementations.
+
+---
+
 
 This repository will serve as the foundation for building and maintaining the backend services of the Airbnb Clone application.
 
