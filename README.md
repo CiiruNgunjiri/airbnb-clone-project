@@ -108,6 +108,57 @@ Ensures the backend functionalities meet quality standards through rigorous test
 - Each **Payment** is associated with one **Booking** (one-to-one or one-to-many depending on payment installments).
 
 ---
+## Feature Breakdown
+
+### User Management
+Enables secure user registration, authentication, and profile management. This feature ensures that users can create accounts, log in safely, and update their personal information, forming the foundation for personalized interactions on the platform.
+
+### Property Management
+Allows hosts to create, update, retrieve, and delete property listings. This feature supports detailed property descriptions, pricing, and location data, enabling users to browse and select accommodations that meet their needs.
+
+### Booking System
+Facilitates users in reserving properties by managing booking creation, updates, and cancellations. It handles check-in and check-out details, ensuring smooth coordination between guests and hosts.
+
+### Payment Processing
+Integrates secure payment handling for booking transactions. This feature processes payments, tracks payment statuses, and ensures that financial exchanges between users and hosts are reliable and safe.
+
+### Review System
+Provides users the ability to post and manage reviews and ratings for properties. This feature fosters trust and transparency by allowing feedback on user experiences, helping future guests make informed decisions.
+
+### Data Optimization
+Implements database indexing and caching strategies to improve performance. Efficient data retrieval and storage ensure the application remains responsive and scalable as user activity grows.
+
+### API Documentation
+Offers clear and comprehensive API documentation using OpenAPI standards and GraphQL. This facilitates easy integration and development by providing developers with detailed information on how to interact with the backend services.
+
+## Feature Breakdown
+
+### User Management
+This feature allows users to securely register, authenticate, and manage their profiles. It ensures that only authorized users can access the platform and personalize their experience.
+
+### Property Management
+Property owners can create, update, and delete listings with detailed information such as title, description, location, and price per night. This enables the platform to showcase available accommodations effectively.
+
+### Booking System
+Users can search for properties and make reservations by selecting check-in and check-out dates. The system manages booking statuses, allowing users to view, confirm, or cancel their reservations.
+
+### Payment Processing
+Integrated payment functionality securely handles transactions related to bookings. It tracks payment amounts, dates, and statuses to ensure reliable and safe financial operations.
+
+### Review System
+Users can post ratings and written reviews for properties they have stayed in. This feature fosters trust and helps future users make informed booking decisions.
+
+### Data Optimization
+The project uses database indexing and caching mechanisms to improve performance and ensure efficient data retrieval. This optimization enhances the overall responsiveness of the application.
+
+### API Development and Security
+RESTful APIs are created and documented using OpenAPI, with support for flexible querying through GraphQL. Security measures such as authentication and authorization protect user data and backend services.
+
+### Asynchronous Task Handling
+Background tasks like sending notifications and processing payments are managed asynchronously using Celery. This ensures the main application remains responsive and scalable.
+
+### Containerization and CI/CD
+Docker is used to create consistent development and deployment environments, while CI/CD pipelines automate testing and deployment processes. This streamlines development workflows and improves reliability.
 
 
 
